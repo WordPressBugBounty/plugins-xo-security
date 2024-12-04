@@ -2,7 +2,7 @@
 Contributors: ishitaka
 Tags: security, login, two factor, brute force, maintenance
 Requires at least: 4.9
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
 Stable tag: 3.10.4
 License: GPLv2 or later
