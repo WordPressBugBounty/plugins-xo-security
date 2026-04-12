@@ -2,9 +2,9 @@
 Contributors: ishitaka
 Tags: security, login, two factor, brute force, maintenance
 Requires at least: 4.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 3.10.8
+Stable tag: 3.10.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,10 @@ Please install mbstring and GD module.
 
 == Changelog ==
 
+= 3.10.9 =
+
+* Supported WordPress 7.0.
+
 = 3.10.8 =
 
 * Fixed a bug that sometimes prevented access to the login page.
@@ -120,17 +124,6 @@ Please install mbstring and GD module.
 * Added two-factor authentication function.
 * Fixed a bug where the login page file created by changing the login page may not be deleted during uninstallation.
 * The REST API URL change feature has been deprecated. If it is currently in use, you can continue to use it, but you cannot use it newly.
-
-= 3.8.1 =
-
-* Supported WordPress 6.5.
-* Added ability to delete readme.html file.
-* Tweaked wording on the admin page.
-* Tweaked CSS on the admin page.
-
-= 3.8.0 =
-
-* Added maintenance mode.
 
 --------
 
